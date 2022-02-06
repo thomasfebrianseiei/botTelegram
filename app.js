@@ -1,6 +1,6 @@
 const Telegraf = require('telegraf')
 
-const bot = new Telegraf('5286036079:AAElF9ZXiyIpe24WY4Jz0fmSdQ4t4odFb8w');
+const bot = new Telegraf(process.env.BOTKEY);
 
 
 
